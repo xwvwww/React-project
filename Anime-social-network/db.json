@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "akame@gmail.com",
+      "password": "1",
+      "avatar": "https://static.wikia.nocookie.net/akamegakill/images/d/df/Akame_main.png/revision/latest?cb=20140824211312",
+      "name": "Alnur",
+      "description": "Moshi moshi"
+    },
+    {
+      "id": 2,
+      "email": "kirito@gmail.com",
+      "password": "2",
+      "avatar": "https://pbs.twimg.com/media/FF8JmgNXsAA8jB_.jpg:large",
+      "name": "Kirito",
+      "description": "I will achieve 100 level"
+    },
+    {
+      "email": "luffy@gmail.com",
+      "password": "1337",
+      "id": 9,
+      "avatar": "https://staticg.sportskeeda.com/editor/2022/11/a402f-16694231050443-1920.jpg",
+      "name": "Luffy",
+      "description": "I will become the Pirate King!"
+    },
+    {
+      "email": "ichigo@gmail.com",
+      "password": "19",
+      "id": 10,
+      "avatar": "https://upload.wikimedia.org/wikipedia/en/1/1e/IchigoKurosakiBleach.jpg",
+      "name": "Ichigo",
+      "description": "Bankai! Tensa Zangetsu!"
+    },
+    {
+      "id": 11,
+      "email": "deku@gmail.com",
+      "password": "111",
+      "avatar": "https://sportshub.cbsistatic.com/i/2023/03/06/63c5e544-f891-4063-a0ae-4d0199d264b1/my-hero-academia-season-6-dark-deku-anime-black-hero-arc.jpg",
+      "name": "Deku",
+      "description": "Plus Ultra!"
+    },
+    {
+      "id": 12,
+      "email": "kaneki@gmail.com",
+      "password": "228",
+      "avatar": "https://thicc.mywaifulist.moe/waifus/4683/3d1deb012023e3d90edf00dcdee597a1805b109b4369f20a69f1a34369eb40b6_thumb.jpg",
+      "name": "Kaneki",
+      "description": "I'm ghoul."
+    },
+    {
+      "email": "saitama@gmail.com",
+      "password": "900",
+      "id": 13,
+      "avatar": "https://static.wikia.nocookie.net/characterprofile/images/2/27/Saitama.png/revision/latest?cb=20160115153958",
+      "name": "Saitama",
+      "description": "One punch!"
+    },
+    {
+      "email": "killua@gmail.com",
+      "password": "1448",
+      "id": 14,
+      "avatar": "https://static.wikia.nocookie.net/hunterxhunter/images/b/bd/HxH2011_EP147_Killua_Portrait.png/revision/latest?cb=20220624211000",
+      "name": "Killua",
+      "description": "I'm Killua Zoldyck."
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "postImage": "https://preview.redd.it/panel-comparison-of-makima-on-the-train-v0-ixxwklzndb4a1.png?width=679&format=png&auto=webp&s=b39c1e973882f80afa76f0a8522f8a6509866b5e",
+      "postTitle": "Chainsaw Man",
+      "postText": "Makima is better!",
+      "id": 1
+    },
+    {
+      "postImage": "https://i.pinimg.com/originals/27/ce/af/27ceaf213d4059ea7d22f3cf3d92ccc3.png",
+      "postTitle": "One Piece",
+      "postText": "Luffy advance his gear!",
+      "id": 2,
+      "userId": 1
+    },
+    {
+      "postImage": "https://static.wikia.nocookie.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/images/b/bf/Episode_012-07.jpg/revision/latest/scale-to-width-down/1599?cb=20170928143111",
+      "postTitle": "Classrom of the elite",
+      "postText": "Ayanokodji becomes manipulator",
+      "id": 3,
+      "userId": 1
+    },
+    {
+      "postImage": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/04/Jujutsu-Kaisen-Gojo-Hollow-Purple.jpg",
+      "postTitle": "Jujutsu Kaisen",
+      "postText": "Gojo new skills!",
+      "id": 4,
+      "userId": 1
+    },
+    {
+      "postImage": "https://qph.cf2.quoracdn.net/main-qimg-3da347ab6de4b5d468c14b350e4518a9-lq",
+      "postTitle": "Mushoku Tensei",
+      "postText": "Rudeus advance his magic skills!",
+      "id": 5,
+      "userId": 1
+    },
+    {
+      "postImage": "https://preview.redd.it/3ticjak1bcg81.png?width=337&format=png&auto=webp&s=670883225bea60d8b6b39f12ad6447410db3d70d",
+      "postTitle": "Fire force",
+      "postText": "Asura connect",
+      "id": 6,
+      "userId": 1
+    },
+    {
+      "postImage": "https://c4.wallpaperflare.com/wallpaper/836/979/742/bleach-anime-bankai-ichigo-kurosaki-wallpaper-preview.jpg",
+      "postTitle": "Bleach",
+      "postText": "Ichigo Kurosaki (黒崎 一護, Kurosaki Ichigo) is a Human who is also a Substitute Shinigami. Ichigo is the son of Isshin and Masaki Kurosaki, and older brother of Karin and Yuzu. He is also married to Orihime Inoue and has a son named Kazui Kurosaki.",
+      "id": 7,
+      "userId": 9
+    },
+    {
+      "userId": 1,
+      "postImage": "https://i.pinimg.com/originals/d5/86/13/d58613bfd941ab2c7b87d7373b1fa5c7.jpg",
+      "postTitle": "Seraph of the end",
+      "postText": "My waifu! ^-^",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "postImage": "https://static.wikia.nocookie.net/no-game-no-life/images/8/83/Tet_and_Chess_board.png/revision/latest/scale-to-width-down/1200?cb=20140505052902",
+      "postTitle": "No game not life",
+      "postText": "Check and mate",
+      "id": 10
+    },
+    {
+      "userId": 10,
+      "postImage": "https://i.pinimg.com/originals/d5/0a/8e/d50a8e9e77f5ac1474f435ff9ff95887.jpg",
+      "postTitle": "Tomodachi game",
+      "postText": "The Manipulator.",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+.usersContainer {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 66px 96px;
+}
+
+.panel {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    color: hsla(238, 22%, 27%, 1);
+  }
+}
+
+.tab {
+  background-color: hsla(200, 6%, 93%, 1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 540px;
+  height: 55px;
+  padding: 5px;
+
+  .link {
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: hsla(238, 22%, 27%, 1);
+
+    &.active {
+      background-color: white;
+    }
+  }
+}

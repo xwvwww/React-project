@@ -1,0 +1,86 @@
+.singlePostPage {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  min-height: 500px;
+
+  .container {
+    padding: 60px 90px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  color: hsla(238, 22%, 27%, 1);
+  margin-bottom: 53px;
+}
+
+.postInfo {
+  display: flex;
+  margin-bottom: 10px;
+
+  .imageWrapper {
+    width: 100%;
+    max-width: 256px;
+    height: 256px;
+    border-radius: 30px;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+
+  .postDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 748px;
+    background-color: hsla(0, 0%, 85%, 1);
+    padding: 46px 75px;
+    border-radius: 30px;
+  }
+}
+
+.author {
+  width: 100%;
+  max-width: 230px;
+  height: 98px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: hsla(0, 0%, 85%, 1);
+  align-self: flex-end;
+  margin-bottom: 25px;
+
+  .imageWrapper {
+    max-width: 68px;
+    height: 68px;
+    border-radius: 20px;
+    margin-right: 15px;
+    overflow: hidden;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    color: hsla(0, 0%, 0%, 1);
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  align-self: flex-end;
+
+  .button {
+    width: 218px;
+  }
+}

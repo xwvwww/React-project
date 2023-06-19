@@ -1,0 +1,30 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  &.settingsInput {
+    width: 100%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 91px 1fr;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 39px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    color: hsla(0, 0%, 0%, 1);
+  }
+}
+
+.input {
+  padding: 18px 16px;
+  border-radius: 10px;
+  border: 1px solid hsla(210, 5%, 85%, 1);
+
+  &.settingsInput {
+    border-radius: 30px;
+    max-width: 263px;
+  }
+}

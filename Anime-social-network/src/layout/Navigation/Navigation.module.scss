@@ -1,0 +1,47 @@
+.navigation {
+  width: 100%;
+  height: min-content;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+}
+
+.user {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    color: hsla(238, 22%, 27%, 1);
+  }
+
+  .imageWrapper {
+    width: 68px;
+    min-width: 68px;
+    height: 68px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}
+
+.link {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125%;
+  color: hsla(238, 22%, 27%, 1);
+}

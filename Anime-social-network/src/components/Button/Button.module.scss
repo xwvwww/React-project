@@ -1,0 +1,11 @@
+.button {
+  background-color: hsla(238, 22%, 27%, 1);
+  border-radius: 10px;
+  height: 56px;
+  color: white;
+  font-size: 16px;
+
+  &.red {
+    background-color: hsla(360, 80%, 27%, 1);
+  }
+}

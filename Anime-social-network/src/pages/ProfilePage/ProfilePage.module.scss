@@ -1,0 +1,57 @@
+.profilePage {
+  width: 100%;
+  height: min-content;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 55px 25px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 292px 1fr 218px;
+  gap: 63px;
+
+  .imageWrapper {
+    width: 292px;
+    min-width: 292px;
+    height: 292px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+}
+
+.userInfo {
+  padding-top: 24px;
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+  gap: 25px;
+  max-width: 166px;
+
+  .name {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 125%;
+    color: hsla(238, 22%, 27%, 1);
+  }
+
+  .description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    color: hsla(238, 22%, 27%, 1);
+  }
+}
+
+.link {
+  height: 56px;
+  background-color: hsla(238, 22%, 27%, 1);
+  padding: 18px 77px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: hsla(0, 0%, 100%, 1);
+}
